@@ -1,0 +1,26 @@
+/** Font import **/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+/** reset css **/
+*, *:before, *:after{box-sizing:border-box;-webkit-box-sizing:border-box;}
+h1, h2, h3, h4, h5, h6, p, aside, ul, li, a, figure, section, aside{margin:0;padding:0;list-style-type:none;}
+a{text-decoration:none;outline:none;display: inline-block;font-size: 0.9em;}
+a:hover{text-decoration:none;outline:none;}
+a:focus{text-decoration:none;outline:none;}
+img{max-width:100%;border:none;outline:none;}
+input, textarea, button{box-shadow:none;outline:none;font-family: 'Lato', sans-serif;}
+input:focus, textarea:focus, button:focus, button:active{box-shadow:none;-webkit-appearance:none;outline:none;}
+body{color:#444;margin:0;padding:0;width:100%;float:left;font-family: 'Lato', sans-serif;position:relative;font-size: 16px;background: #fff;}
+button:focus {outline: none;background-color: #fff;}
+/*global*/
+.full_width{width: 100%;float: left;}
+.mainContainer{width: 100%;max-width: 1170px;padding: 0 1em;margin: 0 auto;}
+.cAlign{display: flex;display: -moz-flex;display: -ms-flex;display: -webkit-flex;display: -o-flex;justify-content: center;-webkit-justify-content: center;-moz-justify-content: center;-ms-justify-content: center;-webkit-align-items: center;align-items: center;}
+.vAlign{display: flex;display: -moz-flex;display: -ms-flex;display: -webkit-flex;display: -o-flex;align-items: center;}
+.d-flex{display: flex;display: -moz-flex;display: -ms-flex;display: -webkit-flex;display: -o-flex;align-items: stretch;justify-content: space-between;-webkit-justify-content: space-between;-moz-justify-content: space-between;-ms-justify-content: space-between;-webkit-align-items: space-between;}
+.clear-both{ clear:both;}
+h2 {font: 400 2em/1.2 'Lato', sans-serif;position: relative;}
+p {font: 300 1em/1.5 'Lato', sans-serif;}
+h3 {font: 400 1.6em/1.2 'Lato', sans-serif;position: relative;}
+h4 {font: 400 2em/1.2 'Lato', sans-serif;}
+h5 {font: 400 1.25em/1.2 'Lato', sans-serif;}
+h6 {font: 400 1.3em/1.2 'Lato', sans-serif;}
